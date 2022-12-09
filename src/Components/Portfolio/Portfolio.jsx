@@ -3,7 +3,7 @@ import IMG1 from "../../assets/Trainee.png";
 import IMG2 from "../../assets/AppRestaurant.png";
 import IMG3 from "../../assets/Mapty.png";
 import IMG4 from "../../assets/DemoPortfolio.png";
-import IMG5 from "../../assets/portfolio5.png";
+import IMG5 from "../../assets/nikeApp.png";
 import IMG6 from "../../assets/BankistWebsite.png";
 import IMG7 from "../../assets/SmallBankApp.png";
 
@@ -53,7 +53,7 @@ const DATA = [
   {
     id: 7,
     image: IMG7,
-    github: "https://github.com",
+    github: "https://github.com/Mohaned-Khaled/Bank_Application",
     demo: "https://mohaned-khaled.github.io/Bank_Application/",
     title: "Bankist App",
   },
