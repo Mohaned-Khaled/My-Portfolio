@@ -1,0 +1,54 @@
+.exp-container {
+  display: grid;
+  width: fit-content;
+}
+
+.exp-frontend {
+  background-color: var(--color-back-ground-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.exp-frontend:hover {
+  background-color: transparent;
+  border-color: var(--color-secondry);
+}
+
+.exp-frontend h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.exp-frontend:hover h3 {
+  color: var(--color-secondry);
+}
+
+.exp-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2.5rem;
+}
+
+.exp-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.exp-icon {
+  margin-top: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .exp-container {
+    width: 90%;
+  }
+
+  .exp-frontend {
+    padding: 2rem 1rem;
+  }
+}

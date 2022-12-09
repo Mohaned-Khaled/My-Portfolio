@@ -1,0 +1,50 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-item {
+  background-color: var(--color-back-ground-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio-item:hover {
+  border-color: var(--color-back-ground-variant);
+  background-color: transparent;
+}
+
+.portfolio-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  height: 202px;
+  object-fit: cover;
+}
+
+.portfolio-item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio-container {
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .portfolio-container {
+    gap: 0.9rem;
+  }
+}
