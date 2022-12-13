@@ -33,13 +33,25 @@ const Footer = function () {
       </ul>
 
       <div className={styles.socials}>
-        <a href="https://facebook.com">
+        <a
+          href="https://www.facebook.com/profile.php?id=100012953357329"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsFacebook />
         </a>
-        <a href="https://twitter.com">
+        <a
+          href="https://twitter.com/Mohaned49593896"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsTwitter />
         </a>
-        <a href="https://instgram.com">
+        <a
+          href="https://www.instagram.com/mohanedkhaled98/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <BsInstagram />
         </a>
       </div>
