@@ -1,11 +1,11 @@
 import styles from "./Portfolio.module.css";
 import IMG1 from "../../assets/Trainee.png";
 import IMG2 from "../../assets/AppRestaurant.png";
-import IMG3 from "../../assets/Mapty.png";
+import IMG3 from "../../assets/FashionStore.png";
 import IMG4 from "../../assets/DemoPortfolio.png";
 import IMG5 from "../../assets/nikeApp.png";
-import IMG6 from "../../assets/BankistWebsite.png";
-import IMG7 from "../../assets/SmallBankApp.png";
+import IMG6 from "../../assets/CryptoApp.png";
+import IMG7 from "../../assets/WeatherApp.png";
 
 const DATA = [
   {
@@ -14,6 +14,13 @@ const DATA = [
     github: "https://github.com/Mohaned-Khaled/Nike-Store",
     demo: "https://nike-store-app.netlify.app/",
     title: "Nike Store",
+  },
+  {
+    id: 5,
+    image: IMG3,
+    github: "https://github.com/Mohaned-Khaled/Fashion-Store",
+    demo: "https://mohanad-fashion-store.netlify.app/",
+    title: "Fashion Store",
   },
   {
     id: 2,
@@ -36,25 +43,19 @@ const DATA = [
     demo: "https://demo-portfolio-app.netlify.app/",
     title: "Demo Portfolio",
   },
-  {
-    id: 5,
-    image: IMG3,
-    github: "https://github.com/Mohaned-Khaled/Mapty_Project",
-    demo: "https://mohaned-khaled.github.io/Mapty_Project/",
-    title: "Mapty Project",
-  },
+
   {
     id: 6,
     image: IMG6,
-    github: "https://github.com/Mohaned-Khaled/Bank_Website",
-    demo: "https://mohaned-khaled.github.io/Bank_Website/",
-    title: "Bankist Website",
+    github: "https://github.com/Mohaned-Khaled/Crypto-App",
+    demo: "https://crypto-currencies-app.netlify.app/",
+    title: "Crypto App",
   },
   {
     id: 7,
     image: IMG7,
-    github: "https://github.com/Mohaned-Khaled/Bank_Application",
-    demo: "https://mohaned-khaled.github.io/Bank_Application/",
+    github: "https://github.com/Mohaned-Khaled/Weather-App",
+    demo: "https://world-weather-application.netlify.app/",
     title: "Bankist App",
   },
 ];

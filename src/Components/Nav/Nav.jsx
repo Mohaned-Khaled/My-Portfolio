@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 const Nav = function () {
   const [activeNav, setActiveNav] = useState("/#");
   const [loading, setLoading] = useState(true);
-  console.log(loading);
 
   useEffect(() => {
     setTimeout(() => {
